@@ -1,0 +1,174 @@
+/*-----------------HEADER---------------------*/
+header {
+	height: 30px;
+	width: auto;
+}
+
+.top {
+	float: right;
+	height: 40px;
+	width: 230px;
+}
+
+.top a {
+	padding-left: 10px;
+	text-decoration: none;
+	color: #000;
+	font-family: arial,sans-serif;
+	font-size: 0.8125em;
+}
+
+.gmail {
+	margin-top: 15px;
+	opacity: .75;
+	margin-left: -23px;
+}
+
+.images {
+	margin-top: 15px;
+	opacity: .75;
+	margin-left: 5px;
+}
+
+.top img {
+	margin-top: 13px;
+	opacity: .55px;
+	border-radius: 2px;
+	margin-left: 10px;
+}
+
+.top button {
+	margin-top: 8px;
+	margin-left: 10px;
+	height: 30px;
+	width: 69px;
+	text-align: center;
+	color: #fff;
+	background-color: #4285f4;
+	font-weight: bold;
+	border-radius: 2px;
+	border: 1px solid #4285f4;
+	padding-bottom: 3px;
+}
+/*--------------------MEAT-------------------*/
+
+
+
+.logo {
+	height: 233px;
+	width: 1;
+	margin-top: 89px;
+	display: block;
+	text-align: center;
+	background-image: (url'images/logo.png')
+ }
+
+
+.logo img {
+	height: 92px;
+	width: 272px;
+    position: 50% 0;
+    padding-top: 71px;
+}
+
+.search {
+	text-align: center;
+	padding-left: 15px;
+	margin-top: -58px;
+}
+
+input {
+	height: 36px;
+	width: 584px;
+	border-color: #DCDCDC;
+	border-width: 1px;
+	outline: none;
+	border-style: solid;
+    background-image: url('images/mic.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 552px 7px;
+}
+
+.googlebtns {
+	text-align: center;
+	margin-top: 14px;
+	white-space: nowrap;
+}
+
+.searchbtn {
+	height: 36px; 
+	width: 125.75px;
+	font-size: 0.8125em;
+}
+
+.luckybtn {
+	height: 36px; 
+	width: 142.58px;
+	margin-left: 4px;
+	font-size: 0.8125em
+}
+
+.searchbtn, .luckybtn {
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	border-color: transparent;
+	border-style: solid;
+	color: #757575;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+
+/*------------------FOOTER----------------------*/
+
+footer {
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	width: 100%
+	height: 15px;
+	line-height: 15px;
+	background-color: #efefef;
+	display: block;
+}
+
+footer a {
+	text-decoration: none;
+	opacity: .75;
+	color: #404040;
+	font-family: arial,sans-serif;
+	font-size: 0.8125em;
+	display: inline-block;
+	margin-right: 3.5px;
+	padding-top: 13px;
+	white-space: nowrap;
+	padding-left: 27px;
+}
+
+.right {
+	display: inline-block;
+	padding-right: 27px;
+	margin-top: -1px;
+}
+
+.left {
+	display: inline-block;
+	padding-left: 3px;
+}
+
+.right, a {
+	float: right;
+}
+
+
+.left, a {
+	float: left;
+	padding-bottom: 6px;
+}
+
+
+
